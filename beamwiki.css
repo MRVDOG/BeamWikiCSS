@@ -1,0 +1,333 @@
+@import url('//fonts.googleapis.com/css?family=Audiowide');
+
+::-webkit-scrollbar {
+    width: 6px;
+}
+
+::-webkit-scrollbar-button {
+    width: 0;
+    height: 0;
+}
+
+::-webkit-scrollbar-thumb {
+    background: rgba(255, 255, 255, 0.2);
+    -webkit-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+    -webkit-border-radius: 3em;
+}
+
+::-webkit-scrollbar-track {
+    background: transparent;
+    -webkit-border-radius: 3em;
+}
+
+#navi-bar {
+	background: rgba(255, 255, 255, 0.45) !important;
+    position: relative;
+    color: white;
+}
+
+#navi-bar input {
+    height: 5px !important;
+}
+
+#navi-bar:before {
+    content: '' !important;
+    position: absolute !important;
+    top: 0 !important;
+    left: 0 !important;
+    width: 100% !important;
+    height: 100% !important;
+    background: #1B2139 url('https://beam.pro/_latest/assets/img/backgrounds/generic-001.jpg') center center fixed !important;
+    z-index: -1 !important;
+    filter: blur(15px) !important;
+}
+
+ul, ol {
+    list-style: none;
+}
+
+#side-bar {
+    text-align: center;
+}
+
+#side-bar ul li {
+	font-size: 13px;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+}
+
+#header h1 {
+    padding-left: 105px !important;
+    background: url('//cdn.mrvdog.com/images/logo-ball.svg') 10px center no-repeat !important;
+    background-size: auto 100% !important;
+    font-family: 'Audiowide', cursive !important;
+    text-transform: uppercase !important;
+}
+
+#toc {
+    background: transparent;
+    border: none;
+}
+
+#toc .title {
+	color: white;
+}
+
+#container {
+    width: 80% !important;
+    padding: 20px !important;
+    margin: 10px auto !important;
+    background: rgba(62, 84, 208, 0.25) !important;
+    box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.2), 0px 2px 2px 0px rgba(0, 0, 0, 0.14), 0px 3px 1px -2px rgba(0, 0, 0, 0.12) !important;
+    position: relative !important;
+    border-radius: 3px !important;
+}
+
+#container:before {
+    content: '' !important;
+    position: absolute !important;
+    top: 0 !important;
+    left: 0 !important;
+    width: 100% !important;
+    height: 100% !important;
+    background: #1B2139 url('https://beam.pro/_latest/assets/img/backgrounds/generic-001.jpg') center center fixed !important;
+    z-index: -1 !important;
+    filter: blur(15px) !important;
+}
+
+.modal-body * {
+	color: black !important;
+}
+
+table {
+	background: rgba(62, 84, 208, 0.25) !important;
+    box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.2), 0px 2px 2px 0px rgba(0, 0, 0, 0.14), 0px 3px 1px -2px rgba(0, 0, 0, 0.12) !important;
+}
+
+table tbody tr th {
+    border: none !important;
+    background: rgba(27, 33, 57, 0.5) !important;
+}
+
+table tbody tr td {
+    border: 1px solid rgba(27, 33, 57, 0.25) !important;
+    color: white;
+}
+
+#header {
+    width: 100% !important;
+    background: none !important;
+}
+
+#header h2 {
+    margin: 0 115px !important;
+}
+
+p, #toc0, .mailform-box, div.sub {
+    color: white !important;
+    background: none !important;
+}
+
+div.col-lg-5.col-md-6 p {
+    color: white !important;
+}
+
+#page-title {
+    color: white !important;
+    background: none !important;
+}
+
+div.feature.feature-header {
+    background: none !important;
+}
+
+#header h2 span {
+    color: rgba(255, 255, 255, 0.3) !important;
+}
+
+div.feature.feature-center {
+    color: white !important;
+}
+
+.row, h1, h2, h3, h4, h5, h6, .text-center, .collapsible-block, .alert, .row, .new-page-box, .odate {
+    background: none !important;
+    color: white !important;
+}
+
+.code, ul:not(.nav), ol {
+	background: rgba(255, 255, 255, 0.25) !important;
+    border: none;
+    color: white !important;
+    padding: 5px 10px !important;
+}
+
+.row .col-sm-6 {
+    padding: 5px 10px !important;
+}
+
+.image-box {
+    border: 1px solid rgba(255, 255, 255, 0.25);
+	background: rgba(255, 255, 255, 0.25);
+}
+
+.image-box .image-box-heading {
+	background: transparent;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.25);
+}
+
+.image-box .image-box-caption {
+	background: transparent;
+    border-top: 1px solid rgba(255, 255, 255, 0.25);
+}
+
+.image-box .image-box-image {
+	background: transparent;
+    padding: 0px !important;
+}
+
+.image-box .image-box-link {
+	background: transparent;
+    border: none !important;
+}
+
+.row .col-sm-6 ul li {
+    color: white;
+}
+
+.alert.alert-warning  {
+    background: #537BFE !important;
+    padding: 2px 20px !important;
+}
+
+div.feature.feature-center p {
+    color: white !important;
+}
+
+#footer {
+    background: transparent !important;
+}
+
+div.license-area {
+    background: transparent !important;
+    color: white !important;
+}
+
+a {
+    color: white !important;
+}
+
+html {
+    background: #1B2139 url('https://beam.pro/_latest/assets/img/backgrounds/generic-001.jpg') center center fixed !important;
+}
+
+#container-wrap {
+    background: transparent !important;
+    color: white !important;
+}
+
+#content-wrap {
+    width: 100% !important;
+    background: none !important;
+}
+
+#side-bar {
+    background: rgba(62, 84, 208, 0.25) !important;
+    box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.2), 0px 2px 2px 0px rgba(0, 0, 0, 0.14), 0px 3px 1px -2px rgba(0, 0, 0, 0.12) !important;
+    color: white !important;
+}
+
+#side-bar h1 span {
+    color: white !important;
+}
+
+#account-topbutton {
+    background: transparent !important;
+}
+
+a.button {
+    display: none !important;
+}
+
+div.sub {
+    text-align: center !important;
+    color: white !important;
+}
+
+input.text {
+    padding: 5px 10px !important;
+    height: 22px !important;
+    line-height: 22px !important;
+    border-radius: 2px 2px !important;
+    background: transparent !important;
+    border: 2px solid #41485B !important;
+    transition: border 0.2s ease-in-out;
+    color: white !important;
+    outline: none !important;
+    text-align: left !important;
+    position: relative !important;
+}
+
+textarea {
+    border-radius: 2px 2px !important;
+    background: transparent !important;
+    border: 2px solid #41485B !important;
+    transition: border 0.2s ease-in-out;
+    color: white !important;
+    outline: none !important;
+    text-align: left !important;
+    position: relative !important;
+}
+
+input.text:focus,
+textarea:focus {
+	border: 2px solid #527AFC !important;
+}
+
+
+button, input[type=button], input[type=submit], a.btn {
+    text-align: center !important;
+    display: inline-block !important;
+    min-width: 88px !important;
+    height: 36px !important;
+    line-height: 36px !important;
+    text-decoration: none !important;
+    color: white !important;
+    padding: 0 16px !important;
+    border-radius: 2px 2px !important;
+    background: #537bfe !important;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3) !important;
+    box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.2), 0px 2px 2px 0px rgba(0, 0, 0, 0.14), 0px 3px 1px -2px rgba(0, 0, 0, 0.12) !important;
+    border: none !important;
+}
+
+img.small {
+    margin-right: 5px;
+}
+
+#account-options{
+    border: none !important;
+}
+
+#account-options ul, ul.dropdown-menu {
+    background: #1F2230 !important;
+    border: none !important;
+    opacity: 1 !important;
+    padding: 0 !important;
+}
+
+#account-options ul li, #top-bar ul li ul a {
+    padding: 8px 10px;
+    color: white !important;
+}
+
+#account-options ul li:hover, #top-bar ul li ul a:hover {
+    background: #313340 !important;
+    color: #fff !important;
+}
+
+#page-content .feature, #license-area {
+    background: transparent;
+    color: white;
+}
