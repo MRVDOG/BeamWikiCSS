@@ -21,7 +21,7 @@
     -webkit-border-radius: 3em;
 }
 
-a.active {
+a.active, a:hover {
     background: transparent !important;
 }
 
