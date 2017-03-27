@@ -23,6 +23,10 @@
     -webkit-border-radius: 3em;
 }
 
+#wd-editor-toolbar-panel div {
+    display: inline-block;
+}
+
 a.active, a:hover {
     background: transparent !important;
 }
