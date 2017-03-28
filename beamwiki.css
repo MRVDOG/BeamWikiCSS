@@ -183,9 +183,15 @@ div.feature.feature-center {
     color: white !important;
 }
 
-.code, ul:not(.nav), ol, blockquote {
+.code, ul:not(.nav), ol {
     background: rgba(255, 255, 255, 0.25) !important;
     border: none;
+    color: white !important;
+    padding: 5px 10px !important;
+}
+
+blockquote {
+    background: rgba(255, 255, 255, 0.25) !important;
     color: white !important;
     padding: 5px 10px !important;
 }
