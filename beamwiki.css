@@ -53,10 +53,6 @@ a.active, a:hover {
     filter: blur(15px) !important;
 }
 
-ul, ol {
-    list-style: none;
-}
-
 #side-bar {
     text-align: center;
 }
