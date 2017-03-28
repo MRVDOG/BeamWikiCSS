@@ -57,6 +57,10 @@ a.active, a:(.weditor-html):hover {
     padding: 0 !important;
 }
 
+.hseparator {
+    height: 22px;
+}
+
 #side-bar {
     text-align: center;
 }
