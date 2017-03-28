@@ -23,6 +23,10 @@
     -webkit-border-radius: 3em;
 }
 
+img {
+    width: 100%;
+}
+
 #wd-editor-toolbar-panel div {
     display: inline-block;
 }
