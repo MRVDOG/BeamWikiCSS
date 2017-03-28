@@ -53,6 +53,10 @@ a.active, a:(.weditor-html):hover {
     filter: blur(15px) !important;
 }
 
+.wd-editor-toolbar-panel div ul {
+    padding: 0;
+}
+
 #side-bar {
     text-align: center;
 }
