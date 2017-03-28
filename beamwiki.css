@@ -27,7 +27,7 @@
     display: inline-block;
 }
 
-a.active, a:hover {
+a.active, a:(.weditor-html):hover {
     background: transparent !important;
 }
 
