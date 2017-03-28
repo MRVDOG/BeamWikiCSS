@@ -57,6 +57,10 @@ a.active, a:hover {
     text-align: center;
 }
 
+#side-bar ul {
+    list-style: none;
+}
+
 #side-bar ul li {
 	font-size: 13px;
     text-decoration: none;
