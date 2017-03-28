@@ -76,6 +76,10 @@ ul, ol {
     text-transform: uppercase !important;
 }
 
+#main-content {
+    margin-right: 220px;
+}
+
 #toc {
     background: transparent;
     border: none;
