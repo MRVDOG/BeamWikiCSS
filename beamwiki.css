@@ -369,6 +369,8 @@ img.small {
 #footer:after {
     content: '| Theme based on Beam.pro by MRVDOG (@MR_VDOG)';
     position: relative;
+    width: 100%;
     height: 30px;
+    line-height: 30px;
     text-align: center;
 }
