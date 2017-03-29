@@ -366,7 +366,7 @@ img.small {
     color: white;
 }
 
-#footer:after {
+#license-area:after {
     content: '| Theme based on Beam.pro by MRVDOG (@MR_VDOG)';
     position: relative;
     display: block;
