@@ -365,3 +365,10 @@ img.small {
     background: transparent;
     color: white;
 }
+
+#footer:after {
+    content: 'Theme by @MR_VDOG';
+    position: relative;
+    height: 30px;
+    text-align: center;
+}
