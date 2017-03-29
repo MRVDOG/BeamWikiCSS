@@ -118,8 +118,8 @@ a.active, a:(.weditor-html):hover {
     position: absolute !important;
     top: -20px !important;
     left: -20px !important;
-    width: calc(100% + 40px) !important;
-    height: calc(100% + 40px) !important;
+    width: calc(100% + 60px) !important;
+    height: calc(100% + 60px) !important;
     background: #1B2139 url('https://beam.pro/_latest/assets/img/backgrounds/generic-001.jpg') center center fixed !important;
     z-index: -1 !important;
     filter: blur(15px) !important;
