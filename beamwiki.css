@@ -367,7 +367,7 @@ img.small {
 }
 
 #license-area:after {
-    content: '| Theme based on Beam.pro by MRVDOG (@MR_VDOG)';
+    content: 'Theme based on Beam (beam.pro) by MRVDOG (twitter.com/mr_vdog)';
     position: relative;
     display: block;
     height: 30px;
