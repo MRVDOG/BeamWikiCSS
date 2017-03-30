@@ -371,8 +371,7 @@ img.small {
     background: url('http://ss.mrvdog.com/beamwiki.raw') center center no-repeat;
     position: relative;
     display: block;
-    height: 30px;
-    line-height: 30px;
+    height: 40px;
+    line-height: 40px;
     text-align: center;
-}
 }
